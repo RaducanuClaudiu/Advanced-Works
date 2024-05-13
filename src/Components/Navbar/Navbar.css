@@ -1,0 +1,64 @@
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 0;
+	cursor: pointer;
+	border-bottom: solid white;
+	background-color: #000000;
+	}
+	.nav-menu {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	gap: 60px;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 0;
+	}
+	.anchor-link {
+	text-decoration: none;
+	color: bisque;
+	}
+	.brand {
+	color: bisque;
+		margin: 0;
+	}
+	
+	header .menu-icon {
+	display: none;
+	cursor: pointer;
+	}
+	
+	@media (max-width: 768px) {
+	header .nav a {
+	display: block;
+	}
+	
+	header .nav-menu {
+	display: none;
+	}
+	
+	header .menu-icon {
+	display: block;
+	}
+	
+	header .menu-icon-container {
+	position: relative;
+	}
+	
+	header .display-mobile-menu {
+	display: block;
+	width: 100%;
+	position: fixed;
+	top: 72px;
+	left: 0;
+	background-color: #000000;
+	}
+	
+	header {
+	position: sticky;
+	top: 0;
+	z-index: 3;
+	}
+	}

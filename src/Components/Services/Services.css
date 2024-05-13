@@ -1,0 +1,40 @@
+.services-title{
+    position: relative;
+}
+.services-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    background: linear-gradient(270deg, #F57D1F 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.services .card {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    background-color: #32323c;
+    
+
+}
+.services .card-title{
+    background: bisque;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    border-bottom: 1px solid bisque;
+    margin-bottom: 20px;
+}
+
+.services p {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+	.services h1 {
+        font-size: 40px;
+    }
+}
